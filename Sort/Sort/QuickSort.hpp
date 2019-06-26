@@ -21,8 +21,8 @@ private:
     
 public:
     QuickSort(int ary[],int cnt);
-    virtual void startSort();
-    void startSort(int start,int end);
+    virtual void sort();
+    void sort(int start,int end);
 };
 
 #endif /* QuickSort_hpp */

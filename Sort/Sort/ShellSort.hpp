@@ -16,7 +16,7 @@ class ShellSort:public Sort {
     
 public:
     ShellSort(int arry[],int cnt);
-    void startSort();
+    void sort();
 };
 
 #endif /* ShellSort_hpp */

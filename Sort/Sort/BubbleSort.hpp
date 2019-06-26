@@ -17,7 +17,7 @@ class BubbleSort:public Sort {
 public:
     BubbleSort(int array[],int count);
     
-    virtual void startSort();
+    virtual void sort();
 };
 
 #endif /* BubbleSort_hpp */

@@ -12,7 +12,7 @@ InsertSort::InsertSort(int array[],int cnt):Sort(array,cnt){
     
 }
 
-void InsertSort::startSort(){
+void InsertSort::sort(){
     for (int i = 1; i<count; i++) {
         for (int j=i-1; j>=0; j--) {
             if (array[j] > array[j+1] ) {

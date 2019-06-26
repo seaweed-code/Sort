@@ -30,7 +30,7 @@ public:
     void print();
     
     //开始排序
-    virtual void startSort()=0;
+    virtual void sort()=0;
     
     virtual ~Sort();
 };

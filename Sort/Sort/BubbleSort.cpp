@@ -12,7 +12,7 @@ BubbleSort::BubbleSort(int array[],int count):Sort(array,count){
 }
 
 
-void BubbleSort::startSort(){
+void BubbleSort::sort(){
     for (int i = count-1; i>0; i--) {
         for (int j=0; j<i; j++) {
             if (array[j] > array[j+1]) {

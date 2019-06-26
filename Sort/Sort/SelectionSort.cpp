@@ -13,7 +13,7 @@ SelectionSort::SelectionSort(int array[],int cnt):Sort(array,cnt){
 }
 
 
-void SelectionSort::startSort(){
+void SelectionSort::sort(){
     for (int i=count-2; i>=0; i--) {
         int maxIndex = i+1;
         for (int j=0; j<=i; j++) {

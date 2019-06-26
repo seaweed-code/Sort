@@ -17,7 +17,7 @@ class InsertSort:public Sort {
     
 public:
     InsertSort(int array[],int cnt);
-    void startSort();
+    void sort();
 };
 
 #endif /* InsertSort_hpp */

@@ -31,18 +31,18 @@ int QuickSort::seperator(int start, int end){
     return right;
 }
 
-void QuickSort::startSort(int start, int end){
+void QuickSort::sort(int start, int end){
     int position = seperator(start, end);
     
     if (position > start) {
-        startSort(start, position-1);
+        sort(start, position-1);
     }
     
     if (position < end) {
-        startSort(position+1, end);
+        sort(position+1, end);
     }
 }
 
-void QuickSort::startSort(){
-    startSort(0, count-1);
+void QuickSort::sort(){
+    sort(0, count-1);
 }

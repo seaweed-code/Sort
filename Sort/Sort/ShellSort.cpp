@@ -11,7 +11,7 @@
 ShellSort::ShellSort(int arry[],int cnt):Sort(arry,cnt){
 }
 
-void ShellSort::startSort(){
+void ShellSort::sort(){
     for (int step = count/2;step; step = step/2) {
         
     }

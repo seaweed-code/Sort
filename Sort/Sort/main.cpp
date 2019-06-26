@@ -19,6 +19,7 @@ int main(int argc, const char * argv[]) {
     Sort *sort;
     int cnt = sizeof(array)/sizeof(int);
     
+    
 //    //冒泡排序
 //    BubbleSort bubble(array,cnt);
 //    sort = &bubble;
@@ -40,7 +41,7 @@ int main(int argc, const char * argv[]) {
     sort = &shell;
     
     
-    sort->startSort();
+    sort->sort();
     sort->print();
 
     return 0;

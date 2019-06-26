@@ -18,7 +18,7 @@ class SelectionSort:public Sort {
     
 public:
     SelectionSort(int array[],int cnt);
-    void startSort();
+    void sort();
 };
 
 #endif /* SelectionSort_hpp */
