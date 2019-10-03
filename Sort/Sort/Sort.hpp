@@ -15,8 +15,8 @@
 class Sort {
     
 protected:
-    const int count;
-    int* const array;
+    int count;
+    int* array;
    
     inline static void swap(int &a,int &b){
         int tmp = a;
@@ -25,9 +25,12 @@ protected:
     }
     
 public:
+    Sort();
     Sort(int array[],int count);
 
-    void print();
+   
+    virtual void print();
+    void sortAndPrint();
     
     //开始排序
     virtual void sort()=0;

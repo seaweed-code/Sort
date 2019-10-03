@@ -12,11 +12,17 @@
 #include <stdio.h>
 #include "Sort.hpp"
 
+
 class HeapSort:public Sort {
     
+private:
+    void adjustHeap(int fromIndex, int toIndex);
+    void generateHeap();
     
 public:
-    
+    HeapSort(int array[],int count);
+    virtual void sort();
+    virtual void print();
 };
 
 #endif /* HeapSort_hpp */
