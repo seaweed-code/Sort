@@ -281,6 +281,7 @@
 		37EFBFAE22C31F1700E67DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BHD34642BX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
