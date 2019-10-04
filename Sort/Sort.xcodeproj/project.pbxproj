@@ -15,6 +15,7 @@
 		37EFBFBE22C33EA900E67DEA /* SelectionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37EFBFBC22C33EA900E67DEA /* SelectionSort.cpp */; };
 		37EFBFC122C3410300E67DEA /* ShellSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37EFBFBF22C3410300E67DEA /* ShellSort.cpp */; };
 		37EFBFC422C3570700E67DEA /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37EFBFC222C3570700E67DEA /* HeapSort.cpp */; };
+		910D47852346E84800039B68 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 910D47832346E84800039B68 /* MergeSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		37EFBFC022C3410300E67DEA /* ShellSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShellSort.hpp; sourceTree = "<group>"; };
 		37EFBFC222C3570700E67DEA /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		37EFBFC322C3570700E67DEA /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
+		910D47832346E84800039B68 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		910D47842346E84800039B68 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				37EFBFC022C3410300E67DEA /* ShellSort.hpp */,
 				37EFBFC222C3570700E67DEA /* HeapSort.cpp */,
 				37EFBFC322C3570700E67DEA /* HeapSort.hpp */,
+				910D47832346E84800039B68 /* MergeSort.cpp */,
+				910D47842346E84800039B68 /* MergeSort.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				37EFBFB222C31F2E00E67DEA /* Sort.cpp in Sources */,
 				37EFBFC122C3410300E67DEA /* ShellSort.cpp in Sources */,
 				37EFBFB822C3289200E67DEA /* QuickSort.cpp in Sources */,
+				910D47852346E84800039B68 /* MergeSort.cpp in Sources */,
 				37EFBFBB22C32BD000E67DEA /* InsertSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +287,7 @@
 		37EFBFAE22C31F1700E67DEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BHD34642BX;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -12,7 +12,15 @@ ShellSort::ShellSort(int arry[],int cnt):Sort(arry,cnt){
 }
 
 void ShellSort::sort(){
-    for (int step = count/2;step; step = step/2) {
-        
-    }
+     for(int gap=count/2;gap>0;gap/=2){
+         //从第gap个元素，逐个对其所在组进行直接插入排序操作
+         for(int i=gap;i<count;i++){
+             int j = i;
+             while(j-gap>=0 && array[j]<array[j-gap]){
+                 //插入排序采用交换法
+                 swap(array[j], array[j-gap]);
+                 j-=gap;
+             }
+         }
+     }
 }
