@@ -13,6 +13,7 @@
 #include "SelectionSort.hpp"
 #include "ShellSort.hpp"
 #include "HeapSort.hpp"
+#include "MergeSort.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -23,10 +24,11 @@ int main(int argc, const char * argv[]) {
 //    InsertSort insert(array,cnt);//插入排序
 //    QuickSort quick(array,cnt);//快速排序
 //    SelectionSort selection(array,cnt);//选择排序
-//    ShellSort shell(array,cnt);//希尔排序
-    HeapSort heap(array,cnt); //堆排序
+    ShellSort shell(array,cnt);//希尔排序
+//    HeapSort heap(array,cnt); //堆排序
+//    MergeSort merge(array,cnt); //合并拍戏
     
-    Sort *sorts[] = {&heap};
+    Sort *sorts[] = {&shell};
         //,&insert,&quick,&selection,&shell};
 
     for (auto sort: sorts) {
