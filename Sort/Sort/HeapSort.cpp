@@ -58,12 +58,8 @@ void HeapSort::sort(){
 
 //向下调整堆
 void HeapSort::adjustHeap(int fromIndex, int toIndex){
-    for (int s = fromIndex;;) {
-        int max = s*2;
-        
-        if (max > toIndex) {
-            break;
-        }
+    
+    for (int max = fromIndex*2; max <= toIndex ;) {
         
         int s2 = max+1;
         if (s2 <= toIndex) {//two son
@@ -72,12 +68,12 @@ void HeapSort::adjustHeap(int fromIndex, int toIndex){
             }
         }
         
-        if (array[s] > array[max]) {
+        if (array[fromIndex] > array[max]) {
             break;
         }
         
-        swap(array[s], array[max]);
-        
-        s = max;
+        swap(array[fromIndex], array[max]);
+        fromIndex = max;
+        max = fromIndex *2;
     }
 }
