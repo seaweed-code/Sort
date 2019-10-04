@@ -13,7 +13,8 @@
 #include "Sort.hpp"
 
 class MergeSort :public Sort{
-    
+private:
+    int * sort(int fromIndex,int toIndex);
 public:
     MergeSort(int array[],int count);
     void sort() override;
