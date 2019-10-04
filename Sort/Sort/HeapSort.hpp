@@ -21,8 +21,9 @@ private:
     
 public:
     HeapSort(int array[],int count);
-    virtual void sort();
-    virtual void print();
+
+    void sort() override;
+    void print() override;
 };
 
 #endif /* HeapSort_hpp */
